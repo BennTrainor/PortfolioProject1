@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/231f2a5361.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Haunted Walkers</title>
 </head>
 <body>
     <header>
@@ -27,29 +27,41 @@
     </header>
 
     <section>
-        <h2>Book onto one of our events and we'll be in touch with more info!</h2>
+        <h2 id="bookings-header">Book onto one of our events and we'll be in touch with more info!</h2>
     </section>
 
     <section>
             <form>
                 <div id= "form-background"></div>
                 
-                <div id="form-content"></div>
-                <h2>Booking form</h2>
+                <div id="form-content">
+                <h1 class="bookings-title">Booking Form</h1>
                 
-                <label for="fname" id="fname">First Name</label>
-                <input type="text" name="first_name" id="fname" required/>
+                <hr>
                 
-                <label for="lname" id="lname">Last Name</label>
-                <input type="text" name="last_name" id="lname" required/>
+                <label for="fname" id="fname">First Name:</label>
+                <input type="text" name="first_name" id="fname" class="text-input" required/>
+
+                <hr>
                 
-                <label for="email" id="email">Email Address</label>
-                <input type="email" name="email_address" id="email" required/>
+                <label for="lname" id="lname">Last Name:</label>
+                <input type="text" name="last_name" id="lname" class="text-input" required/>
+
+                <hr>
                 
-                <label for="event" id="event">Event Booking</label>
-                <input type="text" name="event_booking" id="event" required/>
+                <label for="email" id="email">Email Address:</label>
+                <input type="email" name="email_address" id="email" class="text-input" required/>
+
+                <hr>
                 
-                <input type="submit" value="Submit"/>
+                <label for="event" id="event">Event Booking:</label>
+                <input type="text" name="event_booking" id="event" class="text-input" required/>
+
+                <hr>
+                
+                <input type="submit" value="Submit" class="submit-button"/>
+
+                </div>
                 
             </form>
     </section>
