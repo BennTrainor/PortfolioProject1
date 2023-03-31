@@ -11,6 +11,8 @@ body {
 }
 #heading, #menu {
     line-height: 50px;
+    height: 75px;
+    padding-top: 25px;
     
 }
 
@@ -75,15 +77,33 @@ h1, li {
 #events-picture {
     
     background: url(https://images.pexels.com/photos/5635101/pexels-photo-5635101.jpeg?auto=compress&cs=tinysrgb&w=600);
-    background-size: cover;
-    background-position: center;
+    clear:left;
+    margin-left: 10px;
     height: 800px;
     width: 40%;
-    transform: scale(0.8);
+    transform: scale(1);
+    float: left;
+    overflow: hidden;
 }
 
-#events-heading {
-    float: right;
+.events-title {
+    letter-spacing: 5px;
+    font-size: 200%;
+    font-weight: 100;
+}
+
+#events-info {
+    margin-left: 50px;
+    padding-top: 50px;
+    float: left;
+    width: 50%;
+    height: 800px;
+
+}
+
+hr {
+    width: 100%;
+    height: 100px; 
 }
 
 .form-section {
@@ -95,6 +115,22 @@ h1, li {
     transform: scale(0.8);
 }
 
+
 footer {
+    height: 150px;
+}
+    
+.social-networks {
     text-align: center;
+}
+    
+.social-networks > li {
+    display: inline;
+    }
+    
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
