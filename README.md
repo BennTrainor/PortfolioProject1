@@ -87,10 +87,11 @@ Accessibility
 ## Deployment 
 
 This page was deployed on Github, steps below:
-    -Navigated to Github repository
-    -Used the settings section to navigate to pages
-    -From the drop-don selected main source, then saved.
-    -Github then supplied the live link. 
+    - Navigated to Github repository
+    - Used the settings section to navigate to pages
+    - From the drop-don selected main source, then saved.
+    - Github then supplied the live link. 
+    - Live link can be found here: https://benntrainor.github.io/PortfolioProject1/
 
 
 ## Reference
