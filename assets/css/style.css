@@ -68,8 +68,8 @@ h1, li {
 
 #hero-text {
     background-color: rgba(240, 248, 255, 0.6);
-    width: 25%;
-    height: 50px;
+    width: 300px;
+    height: 60px;
     padding: 15px;
     text-align: center;
     top: 50px;
@@ -203,3 +203,64 @@ footer {
     padding: 5%;
     color: black;
 }
+
+@media screen and (max-width:1200px){
+    #hook {
+        width:80%;
+        height: 200px;
+        margin: 25px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 950px){
+    
+    #heading {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        height: 40px;
+    }
+
+    #heading h1 {
+        text-decoration: none; 
+
+    }
+      
+      #menu li {
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+      }
+    }
+    
+
+@media screen and (max-width: 800px){
+    #hook {
+        height: 300px;
+    }
+
+    #events-picture {
+        width: 100%;
+        height: 700px;
+    }
+
+    #events-info {
+        width: 100%;
+        height: 700px;
+    }
+
+    #form-background {
+        width: 100%;
+        height: 500px;
+        margin: auto 0;
+        ;
+    }
+
+    #form-content {
+        width: 100%;
+        height: 500px;
+        margin: auto 0;
+    }
+}
+
